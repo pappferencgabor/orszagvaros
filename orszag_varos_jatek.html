@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ország-Város</title>
+    <style>
+        table {
+            width: 100%;
+            margin: auto;
+        }
+
+        input {
+            width: 4.5cm;
+            height: 1cm;
+            font-size: x-large;
+            text-align: center;
+            line-height: 20px;
+            background-color: whitesmoke;
+        }
+
+        button {
+            width: 100%;
+            height: 1.2cm;
+            margin: auto;
+            padding: 10px;
+            font-weight: bold;
+            background-color: #eee;
+            color: #000;
+            border-color: black;
+        }
+
+        th {
+            width: 5cm;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        td {
+            width: 2cm;
+            padding: 10px;
+            align-items: center;
+        }
+
+        a {
+            font-size: 25px;
+            line-height: 55px;
+            border: 3px solid black;
+            width: 100%;
+            height: 2cm;
+            margin: auto;
+            padding: 10px;
+            font-weight: bold;
+            background-color: #eee;
+            color: #000;
+        }
+
+        a:hover {
+            background-color: gray;
+            color: yellowgreen
+        }
+
+        button:hover {
+            background-color: gray;
+            color: yellowgreen;
+            cursor: pointer;
+        }
+
+        .torol {
+            width: 100%;
+            height: 2cm;
+            margin: auto;
+            padding: 10px;
+            font-weight: bold;
+            background-color: #eee;
+            color: #000;
+        }
+
+        img {
+            width: 1cm;
+            height: 0.5cm;
+            margin: 0;
+        }
+    </style>
+    <script src="takar_rejt.js"></script>
+</head>
+
+<body bgcolor="#bbb">
+    <iframe id="oak-embed" width="100%" height="175" style="border: 0;"src="https://embed-timer.onlinealarmkur.com/hu/"></iframe>
+    <table border="1px solid black">
+        <tr>
+            <th rowspan="8" style="background-color: wheat;"><a class="pontszam" target="_blank" href="pontszam.html">Pontszám</th></a>
+            <th colspan="8" style="color: whitesmoke; background-color: black;">Ország-Város</th>
+            <th rowspan="8" style="background-color: lightgreen"><a target="_blank" href="https://randomwordgenerator.com/letter.php">Betűsorsoló</a></th>
+        </tr>
+
+        <tr>
+            <th style="background-color: gold"><b>Ország-Város</b></th>
+            <th style="background-color: lightyellow">Ország</th>
+            <th style="background-color: goldenrod">Város</th>
+            <th style="background-color: lightyellow">Fiú</th>
+            <th style="background-color: goldenrod">Lány</th>
+            <th style="background-color: lightyellow">Állat</th>
+            <th style="background-color: goldenrod">Növény</th>
+            <th style="background-color: lightyellow">Tárgy</th>
+        </tr>
+
+        <tr>
+            <th style="background-color: darkgray">Player 1.</th>
+            <td style="background-color: gray"><input type="password" id="showpw" placeholder=""><button onclick="showpw();"><img src="show_hide_cut.png"></button></td>
+            <td style="background-color: gray"><input type="password" id="showpw1" placeholder=""><button onclick="showpw1();"><img src="show_hide_cut.png"></button></td>
+            <td style="background-color: gray"><input type="password" id="showpw2" placeholder=""><button onclick="showpw2();"><img src="show_hide_cut.png"></button></td>
+            <td style="background-color: gray"><input type="password" id="showpw3" placeholder=""><button onclick="showpw3();"><img src="show_hide_cut.png"></button></td>
+            <td style="background-color: gray"><input type="password" id="showpw4" placeholder=""><button onclick="showpw4();"><img src="show_hide_cut.png"></button></td>
+            <td style="background-color: gray"><input type="password" id="showpw5" placeholder=""><button onclick="showpw5();"><img src="show_hide_cut.png"></button></td>
+            <td style="background-color: gray"><input type="password" id="showpw6" placeholder=""><button onclick="showpw6();"><img src="show_hide_cut.png"></button></td>
+        </tr>
+
+        <tr>
+            <th>Player 2.</th>
+            <td><input type="password" id="showpw7" placeholder=""><button onclick="showpw7();"><img src="show_hide_cut.png"></button></td>
+            <td><input type="password" id="showpw8" placeholder=""><button onclick="showpw8();"><img src="show_hide_cut.png"></button></td>
+            <td><input type="password" id="showpw9" placeholder=""><button onclick="showpw9();"><img src="show_hide_cut.png"></button></td>
+            <td><input type="password" id="showpw10" placeholder=""><button onclick="showpw10();"><img src="show_hide_cut.png"></button></td>
+            <td><input type="password" id="showpw11" placeholder=""><button onclick="showpw11();"><img src="show_hide_cut.png"></button></td>
+            <td><input type="password" id="showpw12" placeholder=""><button onclick="showpw12();"><img src="show_hide_cut.png"></button></td>
+            <td><input type="password" id="showpw13" placeholder=""><button onclick="showpw13();"><img src="show_hide_cut.png"></button></td>
+        </tr>
+
+        <tr>
+            <th style="background-color: darkgray">Player 3.</th>
+            <td style="background-color: gray"><input type="password" id="showpw14" placeholder=""><button onclick="showpw14();"><img src="show_hide_cut.png"></button></td>
+            <td style="background-color: gray"><input type="password" id="showpw15" placeholder=""><button onclick="showpw15();"><img src="show_hide_cut.png"></button></td>
+            <td style="background-color: gray"><input type="password" id="showpw16" placeholder=""><button onclick="showpw16();"><img src="show_hide_cut.png"></button></td>
+            <td style="background-color: gray"><input type="password" id="showpw17" placeholder=""><button onclick="showpw17();"><img src="show_hide_cut.png"></button></td>
+            <td style="background-color: gray"><input type="password" id="showpw18" placeholder=""><button onclick="showpw18();"><img src="show_hide_cut.png"></button></td>
+            <td style="background-color: gray"><input type="password" id="showpw19" placeholder=""><button onclick="showpw19();"><img src="show_hide_cut.png"></button></td>
+            <td style="background-color: gray"><input type="password" id="showpw20" placeholder=""><button onclick="showpw20();"><img src="show_hide_cut.png"></button></td>
+        </tr>
+
+        <tr>
+            <th>Player 4.</th>
+            <td><input type="password" id="showpw21" placeholder=""><button onclick="showpw21();"><img src="show_hide_cut.png"></button></td>
+            <td><input type="password" id="showpw22" placeholder=""><button onclick="showpw22();"><img src="show_hide_cut.png"></button></td>
+            <td><input type="password" id="showpw23" placeholder=""><button onclick="showpw23();"><img src="show_hide_cut.png"></button></td>
+            <td><input type="password" id="showpw24" placeholder=""><button onclick="showpw24();"><img src="show_hide_cut.png"></button></td>
+            <td><input type="password" id="showpw25" placeholder=""><button onclick="showpw25();"><img src="show_hide_cut.png"></button></td>
+            <td><input type="password" id="showpw26" placeholder=""><button onclick="showpw26();"><img src="show_hide_cut.png"></button></td>
+            <td><input type="password" id="showpw27" placeholder=""><button onclick="showpw27();"><img src="show_hide_cut.png"></button></td>
+        </tr>
+
+        <tr>
+            <th style="background-color: darkgray">Player 5.</th>
+            <td style="background-color: gray"><input type="password" id="showpw28" placeholder=""><button onclick="showpw28();"><img src="show_hide_cut.png"></button></td>
+            <td style="background-color: gray"><input type="password" id="showpw29" placeholder=""><button onclick="showpw29();"><img src="show_hide_cut.png"></button></td>
+            <td style="background-color: gray"><input type="password" id="showpw30" placeholder=""><button onclick="showpw30();"><img src="show_hide_cut.png"></button></td>
+            <td style="background-color: gray"><input type="password" id="showpw31" placeholder=""><button onclick="showpw31();"><img src="show_hide_cut.png"></button></td>
+            <td style="background-color: gray"><input type="password" id="showpw32" placeholder=""><button onclick="showpw32();"><img src="show_hide_cut.png"></button></td>
+            <td style="background-color: gray"><input type="password" id="showpw33" placeholder=""><button onclick="showpw33();"><img src="show_hide_cut.png"></button></td>
+            <td style="background-color: gray"><input type="password" id="showpw34" placeholder=""><button onclick="showpw34();"><img src="show_hide_cut.png"></button></td>
+        </tr>
+
+        <tr>
+            <th>Player 6.</th>
+            <td><input type="password" id="showpw35" placeholder=""><button onclick="showpw35();"><img src="show_hide_cut.png"></button></td>
+            <td><input type="password" id="showpw36" placeholder=""><button onclick="showpw36();"><img src="show_hide_cut.png"></button></td>
+            <td><input type="password" id="showpw37" placeholder=""><button onclick="showpw37();"><img src="show_hide_cut.png"></button></td>
+            <td><input type="password" id="showpw38" placeholder=""><button onclick="showpw38();"><img src="show_hide_cut.png"></button></td>
+            <td><input type="password" id="showpw39" placeholder=""><button onclick="showpw39();"><img src="show_hide_cut.png"></button></td>
+            <td><input type="password" id="showpw40" placeholder=""><button onclick="showpw40();"><img src="show_hide_cut.png"></button></td>
+            <td><input type="password" id="showpw41" placeholder=""><button onclick="showpw41();"><img src="show_hide_cut.png"></button></td>
+        </tr>
+    </table>
+
+    <br><button class="torol" type="button" onclick="document.location.reload()">Oldal Visszaállítása</button>
+
+    <br>
+    <center>
+        <!-- <a target="_blank" href="https://google.com">
+        Csalás </a>
+        <br>
+        <a target="_blank" href="elerhetosegek.html">
+        Elérhetőségek </a>  -->
+    </center>
+</body>
+
+</html>
